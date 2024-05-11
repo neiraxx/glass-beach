@@ -1,0 +1,83 @@
+.syne-mono-regular {
+    font-family: "Syne Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+*{
+    font-family: 'Syne Mono', serif;
+}
+
+header {
+    font-size: 1.70rem; 
+    text-align: center;    
+    border-radius: 15px;
+    margin: auto;
+    padding-top: -20%; 
+}
+
+.header-text {
+    background: linear-gradient(to right, #0CCEB4, #225371, #C9752F);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text; 
+    border-radius: 15px;
+    margin: auto;
+    width: 500px;
+    height: auto;
+    margin-top: -35px;
+    
+    
+}
+
+.header-text-description {
+      margin-top: -3%;
+}
+
+
+body {
+    font-size: 1.20rem;
+    background-color: #0F0D14;
+    overflow: hidden;
+}
+
+.figure, figcaption, img, image {
+    display:block;
+    margin: auto;
+
+    border-radius: 5%;
+    width: 400px;
+    max-width: 1200px;
+    height: auto;
+    max-height: 1000px;
+    padding: 10px;
+    background-color: #0F0D14;
+}
+
+#img-caption {
+    color: #E16279;
+}
+
+#tribute-info {
+    color: white;
+    text-align: center;
+    margin: auto;
+    padding: auto;
+    background-color: #0F0D14;
+}
+
+.tribute-link, a {
+    margin-top: 2%;
+    padding: 17.5px;
+    text-align: center;
+    color: orange;
+}
+
+a:hover {
+    color: #EB5373;
+    border-bottom: 1px solid #EB5373;
+}
+
+a:active {
+    color: #271F34;
+}
